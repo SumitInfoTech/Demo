@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 int id = item.getItemId();
                 switch (id) {
                     case R.id.dashboard:
+                        //hello everyone
 //                        Intent dashboard = new Intent(DashBoard.this, DashBoard.class);
 //                        startActivity(dashboard);
                         dl.closeDrawer(GravityCompat.START);
